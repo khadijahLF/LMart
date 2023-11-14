@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: Arial, sans-serif;
 }
 
 .menu {
@@ -80,142 +81,47 @@ body {
   font-size: 35px;
 }
 
-.container {
-  display: flex;
-  margin: 0px 100px 0px 100px;
-  flex-wrap: wrap;
-}
-
-.col-1 {
-  flex: 30%;
-  background-color: #efe6de;
-  margin: 10px;
-  border: 1px solid #ff7200;
-  border-radius: 8px;
-  flex-wrap: wrap;
-}
-
-.col-2 {
-  flex: 30%;
-  background-color: #efe6de;
-  margin: 10px;
-  border: 1px solid #ff7200;
-  border-radius: 8px;
-  flex-wrap: wrap;
-}
-
-.col-3 {
-  flex: 30%;
-  background-color: #efe6de;
-  margin: 10px;
-  border: 1px solid #ff7200;
-  border-radius: 8px;
-  flex-wrap: wrap;
-}
-
-.imgs {
-  width: 100%;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-}
-
-<<<<<<< HEAD
-.web-body h1 {
-  font-size: 50px;
-  color: #232323;
-  font-weight: 200;
-=======
-.col-4{
-    flex: 30%;
-    background-color: #efe6de;
-    margin: 10px;
-    border: 1px solid #ff7200;
-    border-radius: 8px;
-    flex-wrap: wrap;
-}
- .col-5{
-    flex: 30%;
-    background-color: #efe6de;
-    margin: 10px;
-    border: 1px solid #ff7200;
-    border-radius: 8px;
-    flex-wrap: wrap;
- }
-
- .col-6{
-    flex: 30%;
-    background-color: #efe6de;
-    margin: 10px;
-    border: 1px solid #ff7200;
-    border-radius: 8px;
-    flex-wrap: wrap;
- }
- 
-.imgs { 
-    width: 100%;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px; 
-} 
-
-.web-body h1{
-    font-size: 50px;
-    color: #232323;
-    font-weight: 200;
->>>>>>> 0212e056bd2277aaeeae9cd549e83740f4463766
-}
-
-#shop-id {
-  text-align: center;
-}
-
-.btn-cart {
-  width: 150px;
-  height: 40px;
-  background-color: #ff7200;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  margin-left: 130px;
-  margin-bottom: 20px;
-}
-
-.price-style {
-  text-align: center;
-}
-
-.p-text {
-  text-align: center;
-}
-
-@media (max-width: 600px) {
-  .container {
-    display: block;
-  }
-}
-
-.container2 {
-  display: flex;
-  margin: 0px 100px 0px 200px;
-  flex-wrap: wrap;
-  flex: 100%;
-}
-
-.web-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .bd-text {
   flex: 40%;
   height: 150px;
   flex-wrap: wrap;
   margin-top: 50px;
 }
+/*CSS styling for second page*/
 
-.bd-p {
-  flex: 50%;
-  height: 150px;
-  flex-wrap: wrap;
-  font-size: 16px;
-  padding: 60px;
+#shop-id {
+text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.item {
+  text-align: center;
+  background-color: #efe6de;
+  border: 1px solid #ff7200;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box; 
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden; /* Ensure consistent height for all items */
+  
+}
+
+.item img {
+  max-width: 100%; /* Make images responsive, not larger than their container */
+  height: auto
+}
+
+  /* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+.item {
+  width: 100%;
+}
+}
+
