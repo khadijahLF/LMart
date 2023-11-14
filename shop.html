@@ -5,9 +5,55 @@
     <meta charset="UTF-8">
     <title>LMart- Shop</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                }
+
+        .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 20px;
+                box-sizing: border-box;
+                }
+
+        .item {
+                text-align: center;
+                padding: 10px;
+                background-color: #efe6de;
+                border: 1px solid #ff7200;
+                box-sizing: border-box;
+                width: calc(33.33% - 20px); 
+                margin-bottom: 20px;
+                border-radius: 8px;
+            }
+
+        .item img {
+                max-width: 100%; /* Make images responsive, not larger than their container */
+                height: auto;
+                }
+
+                /* Media query for smaller screens */
+        @media screen and (max-width: 768px) {
+        .item {
+                width: 100%;
+            }
+            }
+
+            p{
+                text-align: center;
+            }
+
+    </style>
+    
 </head>
 
 <body>
+<<<<<<< HEAD
+=======
 
     <h1 id="shop-id">Shop</h1>
     <section class="container">
@@ -47,10 +93,248 @@
             <h3 class="price-style">₦40,000</h3>
             <button class="btn-cart">Add to Cart</button>
         </section>
+        <section class="col-5">
+            <img  class="imgs"  src="images/Airfryer.jpg" alt="Airfryer">
+            </div>
 
+            <p class="p-text">
+            Princess Premium Airfryer <br> -3Litres - 2500W - Premium Airfryer</p>
+            <h3 class="price-style">₦60,000</h3>
+            <button class="btn-cart">Add to Cart</button>
+        </section>
+        <section class="col-6">
+            <img class="imgs"  src="images/Airfryer.jpg" alt="">
+            </div>
+
+            <p class="p-text">
+            Princess Mini Airfryer <br> -1.5Litres - 1500W - Mini Airfryer</p>
+            <h3 class="price-style">₦30,000</h3>
+            <button class="btn-cart">Add to Cart</button>
+        </section>
+
+<<<<<<< HEAD
 
     </section>
 
+=======
+        
+</section>
+>>>>>>> d89e68193db105e8f87469a125e3bf93aac72886
+    
+    <h1 id = "shop-id">Shop</h1>
+
+    <div class="container">
+        <!-- Item 1 -->
+        <div class="item">
+          <img src="/images/image1.avif" alt="Image 1">
+          <p>₦30,000</p>
+          <p>elba gas stove 2500W</p>
+        </div>
+    
+        <!-- Item 2 -->
+        <div class="item">
+          <img src="/images/image1.avif" alt="Image 2">
+          <p>₦10,000</p>
+          <p>Westinghouse 565L french door refrigerator WHE6060SB</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item">
+            <img src="/images/image1.avif" alt="Image 3">
+            <p>₦98,000</p>
+            <p>Orange Tea kettle Home Appliance 500W</p>
+        </div>
+
+          <!-- Item 4 -->
+        <div class="item">
+            <img src="/images/image4.jpg" alt="Image 4">
+            <p>₦60,000</p>
+            <p>Orange Kettle And Toaster</p>
+        </div>
+
+          <!-- Item 5 -->
+        <div class="item">
+            <img src="/images/image5.webp" alt="Image 5">
+            <p>₦85,000</p>
+            <p>Small Kitchen Appliances Home Appliances Household Kitchen</p>
+        </div>
+
+          <!-- Item 6 -->
+        <div class="item">
+            <img src="/images/image6.jpg" alt="Image 6">
+            <p>₦65,000</p>
+            <p>Butterfly Rhino Mixer Grinder 500 W, 3 Jar</p>
+        </div>
+
+          <!-- Item 7 -->
+        <div class="item">
+            <img src="/images/image57.jpg" alt="Image 7">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 8 -->
+        <div class="item">
+            <img src="/images/image57.jpg" alt="Image 8">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 9 -->
+        <div class="item">
+            <img src="/images/image57.jpg" alt="Image 9">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 10 -->
+        <div class="item">
+            <img src="/images/image3.jpg" alt="Image 10">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 11 -->
+        <div class="item">
+            <img src="/images/image37.jpg" alt="Image 11">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 12 -->
+        <div class="item">
+            <img src="/images/image37.jpg" alt="Image 12">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 13 -->
+        <div class="item">
+            <img src="/images/image74.jpg" alt="Image 13">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 14 -->
+        <div class="item">
+            <img src="/images/image74.jpg" alt="Image 14">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 15 -->
+        <div class="item">
+            <img src="/images/image74.jpg" alt="Image 15">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 16 -->
+        <div class="item">
+            <img src="/images/image76.jpg" alt="Image 16">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 17 -->
+        <div class="item">
+            <img src="/images/image76.jpg" alt="Image 17">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 18 -->
+        <div class="item">
+            <img src="/images/image76.jpg" alt="Image 18">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 19 -->
+        <div class="item">
+            <img src="image19.jpg" alt="Image 19">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 20 -->
+        <div class="item">
+            <img src="image20.jpg" alt="Image 20">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 21 -->
+        <div class="item">
+            <img src="image21.jpg" alt="Image 21">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 22 -->
+        <div class="item">
+            <img src="image22.jpg" alt="Image 22">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 23 -->
+        <div class="item">
+            <img src="image23.jpg" alt="Image 23">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 24 -->
+        <div class="item">
+            <img src="image24.jpg" alt="Image 24">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 25 -->
+        <div class="item">
+            <img src="image25.jpg" alt="Image 25">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 26 -->
+        <div class="item">
+            <img src="image26.jpg" alt="Image 26">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 27 -->
+        <div class="item">
+            <img src="image27.jpg" alt="Image 27">
+            <p>$20</p>
+            <p>Description </p>
+        </div>
+
+          <!-- Item 28 -->
+        <div class="item">
+            <img src="image28.jpg" alt="Image 28">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 29 -->
+        <div class="item">
+            <img src="image29.jpg" alt="Image 29">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+
+          <!-- Item 30 -->
+        <div class="item">
+            <img src="image30.jpg" alt="Image 30">
+            <p>$20</p>
+            <p>Description</p>
+        </div>
+    </div> 
+>>>>>>> c163768218d0afd8cf2a0e5df0056573029d60f5
 </body>
 
 </html>
