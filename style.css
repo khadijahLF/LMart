@@ -136,7 +136,24 @@ body{
     border-radius: 8px;
     flex-wrap: wrap;
 }
+ .col-5{
+    flex: 30%;
+    background-color: #efe6de;
+    margin: 10px;
+    border: 1px solid #ff7200;
+    border-radius: 8px;
+    flex-wrap: wrap;
+ }
 
+ .col-6{
+    flex: 30%;
+    background-color: #efe6de;
+    margin: 10px;
+    border: 1px solid #ff7200;
+    border-radius: 8px;
+    flex-wrap: wrap;
+ }
+ 
 .imgs { 
     width: 100%;
     border-top-right-radius: 8px;
