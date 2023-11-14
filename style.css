@@ -120,10 +120,32 @@ body {
   border-top-left-radius: 8px;
 }
 
+<<<<<<< HEAD
 .web-body h1 {
   font-size: 50px;
   color: #232323;
   font-weight: 200;
+=======
+.col-4{
+    flex: 30%;
+    background-color: #efe6de;
+    margin: 10px;
+    border: 1px solid #ff7200;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.imgs { 
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px; 
+} 
+
+.web-body h1{
+    font-size: 50px;
+    color: #232323;
+    font-weight: 200;
+>>>>>>> 0212e056bd2277aaeeae9cd549e83740f4463766
 }
 
 #shop-id {
