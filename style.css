@@ -25,16 +25,15 @@ body {
   text-decoration: none;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: #ff7200;
+  font-size:14px;
+  color: #000;
   font-weight: 700;
 }
 .nav-links ul li a:hover {
   color: #ff7200;
 }
-.title {
-  text-decoration: underline;
-}
+
+
 .header {
   background-color: #ff73001f;
   display: flex;
@@ -69,7 +68,7 @@ body {
   border-radius: 5px;
   color: #fff;
   transition: ease-in-out 200ms;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  
 }
 
 .btn-shop:hover {
