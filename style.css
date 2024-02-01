@@ -174,7 +174,7 @@ text-align: center;
 
 .main-content {
   flex-grow: 1;
-  padding: 40px;
+  padding: 20px;
 }
 
 .categories {
@@ -211,6 +211,7 @@ text-align: center;
   margin: 10px;
   border: 1px solid #ddd;
   background-color: #fff;
+  border-radius: 5px;
 }
 
 .product img{
@@ -219,6 +220,7 @@ text-align: center;
   object-fit: fill; /* Ensures the image covers the entire container */
   object-position: center; /* Centers the image within the container */
   box-sizing: border-box;
+  height: 250px;
 }
 
 
@@ -301,4 +303,85 @@ footer {
       flex: 100%;
       margin: 10px 0;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px; /* Adjust font size for small screens */
+  }
+
+  .menu {
+      flex-direction: column; /* Stack menu items vertically for small screens */
+      text-align: center;
+  }
+
+  .nav-links ul {
+      padding: 0;
+  }
+
+  .nav-links li {
+      margin: 0;
+  }
+
+  .header {
+      flex-direction: column; /* Stack header elements vertically for small screens */
+      text-align: center;
+
+      width: 400px;
+      justify-content: center;
+      place-content: center;
+     
+  }
+
+  .left-header {
+      order: 2; /* Reorder left header content below right header for small screens */
+      
+  }
+
+  .right-header img {
+      width: 100%;
+      padding-bottom: 0%; /* Make the image fill the width of the container */
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: 1fr; /* Display products in a single column on small screens */
+    gap: 10px; /* Add some gap between products for better spacing */
+}
+
+.product {
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack container content vertically for small screens */
+}
+
+.sidebar {
+  order: -1; /* Move sidebar to the top for small screens */
+  width: 400px; /* Make the sidebar fill the width of the container */
+  margin-bottom: 10px; /* Add some space between the sidebar and the main content */
+}
+
+.main-content {
+  width: 100%; /* Make the main content fill the width of the container */
+}
+
+.bd-p{
+  width: 300px;
+ margin-top: -20px;
+}
+
+#head1{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.right-header{
+  width: 250px;
+}
+
 }
