@@ -1,0 +1,16 @@
+{
+  "name": "lmart",
+  "version": "1.0.0",
+  "description": "At LMart, we're more than just a store. We're your go-to destination for all your shopping needs, providing a diverse range of high-quality products at affordable prices. Located in the heart of Lagos,Nigeria\r , we're proud to serve our community with a smile.\r ![Screenshot of website](images/imgggg.png)",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LMart",
+    "Javascript",
+  ],
+  "author": "",
+  "license": "ISC"
+}
